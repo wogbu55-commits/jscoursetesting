@@ -49,3 +49,25 @@ let isAuthenticated = true;
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
 
 console.log("Authentication Status:", authenticationStatus);
+
+let userId = "Employee";
+let userProgram;
+
+switch (userId) {
+    case "Employee":
+        userProgram = "Full Access to Dietary Services";
+        break;
+    case "Enrolled Member":
+        userProgram = "Full Access to Dietary services, one-on-one interaction with a dietician"
+        break;
+    case "Subscriber":
+        userProgram = "Partial Access to Dietary Services"
+        break;
+    case "Subscriber":
+        userProgram = "Please enroll or subscribe to avail this facility"
+        break;
+    default:
+        userProgrm = "Unknown";
+}
+
+console.log("User Program:", userProgram)
