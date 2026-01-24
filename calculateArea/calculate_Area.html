@@ -4,6 +4,7 @@
   <title>Rectangle Area Calculator</title>
 </head>
 <body>
+  <section>
   <h1>Rectangle Area Calculator</h1>
   <label for="length">Enter the length: </label>
   <input type="number" id="length"><br><br>
@@ -14,6 +15,22 @@
   <button onclick="calculateArea()">Calculate Area</button><br><br>
 
   <p id="result"></p>
+</section>
+<section>
+    <h2>Grocery List</h2>
+    <label for="first">Enter Grocery-1 Amount: </label>
+    <input type="number" id="first"><br><br>
+
+    <label for="second">Enter Grocery-2 Amount: </label>
+    <input type="number" id="second"><br><br>
+
+    <label for="third">Enter Grocery-3 Amount: </label>
+    <input type="number" id="third"><br><br>
+
+    <button onclick="groceryTracker()">Calculate Total Amount</button><br><br>
+
+    <p id="amount"></p>
+</section>
 <script src="./calculate_Area.js"></script>
 </body>
 </html>
